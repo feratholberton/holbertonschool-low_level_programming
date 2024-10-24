@@ -2,6 +2,8 @@
 
 /**
  * add - Return the sum of two values
+ * @a: value a
+ * @b: value b
  * Return: sum value
  */
 
