@@ -15,6 +15,10 @@ void times_table(void)
 		{
 			result = row * col;
 			_putchar(result + '0');
+
+			if(col == 0) {
+				_putchar('+');
+			}
 		}
 		_putchar('\n');
 	}
