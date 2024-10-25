@@ -16,7 +16,7 @@ void times_table(void)
 			result = row * col;
 			if (col == 0)
 			{
-				_putchar(result + '0')
+				_putchar(result + '0');
 			}
 			else 
 			{
