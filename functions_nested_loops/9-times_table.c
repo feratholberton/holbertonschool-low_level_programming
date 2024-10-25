@@ -16,8 +16,13 @@ void times_table(void)
 			result = row * col;
 			_putchar(result + '0');
 
-			if(col == 0) {
-				_putchar('+');
+			if (col == 0) {
+				_putchar(result + '0');
+				_putchar(',');
+			} 
+			else
+			{
+				_putchar(result + '0');
 			}
 		}
 		_putchar('\n');
