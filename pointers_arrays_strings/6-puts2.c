@@ -3,7 +3,7 @@
 /**
  * puts2 - print even characters
  *
- * @string: to print 
+ * @string: to print
  *
  * Return: void
  */
