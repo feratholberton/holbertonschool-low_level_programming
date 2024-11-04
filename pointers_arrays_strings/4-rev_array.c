@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * reverse_array - guess
+ * @intsArr: array of integers
+ * @arrayItems: number of items in the array
+ * Return: void
+ */
+
 void reverse_array(int *intsArr, int arrayItems)
 {
 	int temp;
