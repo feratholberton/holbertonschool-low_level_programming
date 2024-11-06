@@ -12,7 +12,7 @@ char *_memset(char *dest, char byte, unsigned int qty)
 {
 	unsigned int i;
 
-	for (i = 0; i < times; i++)
+	for (i = 0; i < qty; i++)
 	{
 		dest[i] = byte;
 	}
