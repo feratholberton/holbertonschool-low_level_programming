@@ -1,11 +1,18 @@
 #include "main.h"
 
-unsigned int _strspn (char *string, char* accept)
+/**
+ * _strspn - get length
+ * @string: to be scanned
+ * @accept: string to match
+ * Return: count
+ */
+
+unsigned int _strspn(char *string, char *accept)
 {
 	unsigned int count = 0;
 	int i, match;
 
-	while(*string)
+	while (*string)
 	{
 		match = 0;
 
