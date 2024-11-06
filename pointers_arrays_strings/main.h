@@ -18,3 +18,4 @@ void reverse_array(int *, int);
 char *string_toupper(char *);
 char *_memset(char *, char, unsigned int);
 char *_memcpy(char *, char *, unsigned int);
+char *_strchr(char *, char);
