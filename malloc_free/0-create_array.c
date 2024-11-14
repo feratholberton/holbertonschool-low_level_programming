@@ -4,6 +4,7 @@
  * *create_array - guess
  * @size: characters to allocate
  * @character: char to start with
+ * Return: pointer
  */
 
 char *create_array(unsigned int size, char character)
