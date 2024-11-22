@@ -28,6 +28,6 @@ void print_numbers(const char *separator, const unsigned int count, ...)
 		}
 	}
 
-	printf("\n");
 	va_end(integs);
+	printf("\n");
 }
