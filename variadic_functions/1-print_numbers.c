@@ -3,31 +3,28 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - guess
+ * print_numbers - Prints numbers separated by a string
  * @separator: string to put between each number
- * @numbers: quantity of items -a.k.a. parameters- to print
+ * @count: of parameters to be printed
  * Return: void
  */
 
-void print_numbers(const char *separator, const unsigned int numbers, ...)
+void print_numbers(const char *separator, const unsigned int count, ...)
 {
 	unsigned int i;
 	int value;
 
 	va_list integs;
 
-	va_start(integs, numbers);
+	va_start(integs, count);
 
-	for (i = 0; i < numbers; i++)
+	for (i = 0; i < count; i++)
 	{
 		value = va_arg(integs, int);
-		if (i == numbers - 1)
+		printf("%d", value);
+		if (i != count - 1 && separator != NULL)
 		{
-			printf("%d", value);
-		}
-		else
-		{
-			printf("%d%c", value, separator[0]);
+			printf("%s", separator);
 		}
 	}
 
