@@ -3,15 +3,14 @@
 /**
  * free_grid - frees allocated memory
  * @grid: grid
- * @height
- * Return: 
+ * @height: height of the grid
  */
 
 void free_grid(int **grid, int height)
 {
 	int i;
 
-        if (grid == NULL)
+	if (grid == NULL)
 		return;
 
 	for (i = 0; i < height; i++)
