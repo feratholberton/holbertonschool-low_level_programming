@@ -3,7 +3,11 @@
 #include <string.h>
 
 /**
- *
+ * string_nconcat - concatenates 2 strings
+ * @str1: First string
+ * @str2: Second String
+ * @n: bytes to copy from string 2
+ * Return: pointer to allocated memory
  */
 
 char *string_nconcat(char *str1, char *str2, unsigned int n)
