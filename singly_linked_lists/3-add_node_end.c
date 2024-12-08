@@ -6,6 +6,7 @@
  * add_node_end - adds new node
  * @head: double pointer
  * @str: string to be added
+ * Return: Address of the new element
  */
 
 list_t *add_node_end(list_t **head, const char *str)
@@ -13,7 +14,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	list_t *new_node, *temp;
 	unsigned int len = 0;
 
-	while(str[len])
+	while (str[len])
 		len++;
 
 	new_node = malloc(sizeof(list_t));
